@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [ArticleController::class, 'welcome'])->name('welcome');
+
